@@ -1,7 +1,12 @@
+import Attendence from "./Attendence"
+import Classes from "./Classes"
 function App() {
   return (
     <>
-    <h1>Hello kodnest</h1>
+    <h1>kodnest App
+      <Attendence/>
+      <Classes/>
+    </h1>
     </>
   );
 }
